@@ -1,3 +1,88 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+# Rider project files
+.idea/
+*.sln.iml
+*.sln.DotSettings.user
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build results
+bin/
+obj/
+out/
+build/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# GDUnit (if testing in Rider)
+TestResults/
+*.testlog
+
+# Visual Studio (in case you open it there)
+.vs/
+
+# Logs
+*.log
+*.tlog
+*.svclog
+
+# Backup and temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+*.db
+*.DS_Store
+Thumbs.db
+
+# Package directories
+packages/
+*.nupkg
+*.snupkg
+
+# Environment and system files
+*.env
+*.local
+.envrc
+
+# Godot-specific (if applicable)
+.import/
+.export/
+.godot/
+*.translation
+*.import
+mono_crash.*
+
+# Rider caches
+.idea/
+.idea/*
+.idea_modules/
+.idea/.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/httpRequests
+.idea/shelf/
+.idea/assetWizardSettings.xml
+
+# JetBrains Rider plugin caches
+.gradle/
+*.iws
+*.ipr
+
