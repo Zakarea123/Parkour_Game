@@ -5,6 +5,9 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="8.8.0" />
+    <PackageReference Include="gdUnit4.api" Version="5.0.0" />
+      <PackageReference Include="gdUnit4.test.adapter" Version="3.0.0" />
     <PackageReference Include="xunit" Version="2.9.3" />
   </ItemGroup>
 </Project>
