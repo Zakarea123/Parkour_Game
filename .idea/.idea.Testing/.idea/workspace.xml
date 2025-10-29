@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9c8afc1-7660-4fb2-bf48-dd35ef9158f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GameTests/PlayerTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Testing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Testing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Testing.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Testing.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
