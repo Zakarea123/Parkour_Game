@@ -62,4 +62,72 @@ If you encounter issues, have suggestions, or want to discuss improvements:
 - **Engine:** Godot 4 (C# scripting)  
 - **Language:** C#  
 - **Export Target:** Windows (.exe)  
-- **Genre:** 2D Platformer / Parkour Demo  
+- **Genre:** 2D Platformer / Parkour Demo
+
+---
+
+## How to Run Unit Tests (Optional)
+
+This project includes automated tests built using the GDUnit4 testing framework, integrated with JetBrains Rider to run tests outside the Godot editor.  
+All test scripts are located inside the `Testing` folder within the project directory.
+
+---
+
+### 🧰 Requirements
+
+- Download the *ZIP folder* of this repository or *clone* it  
+- Make sure **.NET 9.0 SDK** is installed on your system  
+  👉 [Download it here](https://dotnet.microsoft.com/en-us/download)
+
+---
+
+### ⚙️ Setup Instructions
+
+1. **Extract** the ZIP folder / clone anywhere on your computer.  
+2. **Open** the project in the IDE (Rider, VS, etc).  
+3.(**Only in Rider**) => The tests should automatically appear in the **Tests** window.  
+
+If the tests don’t appear automatically or you are using a different IDE, open a terminal in the project folder and run:
+
+```bash
+dotnet clean
+dotnet restore
+dotnet build
+```
+
+After building successfully, run:
+
+```bash
+dotnet test
+```
+Resualt of the tests should appear like this =>
+`x tests successful`, `x tests failed`, etc.
+
+---
+
+### 🔄 Refreshing the Test Window in JetBrains Rider
+
+If the tests still don’t appea in Rider:
+
+1. In the top-left menu of Rider, go to **Tests**.  
+2. In the last section of the dropdown menu, select **“Refresh Unit Test Tree.”**  
+3. The tests should now appear in the Tests window and can be run directly from there.
+
+---
+
+### ⚠️ Troubleshooting
+
+If you encounter build or version issues:
+
+- Make sure the **.NET 9.0 SDK** is correctly installed and up to date.  
+- Rebuild the project:
+
+```bash
+dotnet build
+```
+
+Then try running the tests again:
+
+```bash
+dotnet test
+```
